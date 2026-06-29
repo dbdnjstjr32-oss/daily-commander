@@ -1,0 +1,33 @@
+{
+  "_comment": "이 파일을 google-services.json 으로 복사한 뒤 실제 값을 채우세요.",
+  "_steps": [
+    "1. Firebase Console (console.firebase.google.com) 접속",
+    "2. 새 프로젝트 생성 → Android 앱 추가",
+    "3. 패키지 이름: com.dc.aurora",
+    "4. google-services.json 다운로드 → app/ 폴더에 저장",
+    "5. 백엔드: 프로젝트 설정 → 서비스 계정 → 새 비공개 키 생성",
+    "6. 다운로드된 JSON → dc-api/firebase_service_account.json 으로 저장"
+  ],
+  "project_info": {
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "YOUR_PROJECT_ID",
+    "storage_bucket": "YOUR_PROJECT_ID.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:YOUR_APP_ID",
+        "android_client_info": {
+          "package_name": "com.dc.aurora"
+        }
+      },
+      "api_key": [{"current_key": "YOUR_API_KEY"}],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+local.properties
+*.iml
+.gradle/
+.idea/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.jks
+google-services.json
